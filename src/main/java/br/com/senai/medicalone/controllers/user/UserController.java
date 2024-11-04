@@ -116,6 +116,7 @@ public class UserController {
         }
     }
 
+
     @GetMapping("/{id}")
     @Operation(summary = "Busca usuario por ID", description = "Endpoint para obter um usuário pelo ID")
     @ApiResponses({
